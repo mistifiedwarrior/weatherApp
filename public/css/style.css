@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.hidden {
+  display: none;
+}
+body {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+header {
+  text-align: center;
+  background: #333333;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 10px;
+  font-size: 24px;
+}
+.location {
+  border: 1px solid grey;
+  font-weight: bold;
+  text-align: center;
+  background: #999999;
+  color: black;
+}
+footer {
+  background: #333333;
+  color: #ffffff;
+  padding: 10px;
+  padding-left: 10%;
+  font-weight: 200;
+}
+.currently {
+  border: 1px solid gray;
+  margin: 50px;
+  background: #eee;
+}
+.currently-time {
+  background: #777;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+.currently-summary {
+  margin-left: 5%;
+}
+.currently-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 8px 5%;
+}
+.currently-details > div {
+  width: 25%;
+}
+.daily-hourly-details {
+  border: 1px solid #333333;
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.switching {
+  border-bottom: 1px solid #333333;
+  display: flex;
+  background: #aaaaaa;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.switching > div {
+  border-right: 1px solid #333333;
+  padding: 5px 60px;
+  padding-right: 100px;
+  cursor: pointer;
+}
+
+.active {
+  background: #333;
+  color: white;
+}
+
+.time,
+.hourly-summary {
+  font-weight: bold;
+}
+.date,
+.daily-summary {
+  font-weight: bold;
+}
+.summary {
+  border: 1px solid grey;
+  padding: 5px 10px;
+  padding-left: 50px;
+  background: #dddddd;
+  color: black;
+  font-weight: 800;
+}
+.card {
+  border-bottom: 1px solid #333;
+  padding: 5px 10px;
+}
+.day-details,
+.hour-details {
+  display: flex;
+  flex-wrap: wrap;
+}
+.date {
+  width: 20%;
+}
+.daily-summary {
+  width: 80%;
+}
+.time {
+  width: 50%;
+}
+
+.hourly-summary {
+  width: 50%;
+}
+.day-data,
+.hour-data {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}

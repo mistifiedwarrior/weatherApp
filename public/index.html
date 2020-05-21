@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./scripts/script.js"></script>
+    <link rel="shortcut icon" href="./images/cloud.png" type="image/x-icon" />
+    <title>Weather Forecasting</title>
+  </head>
+  <body>
+    <header>WEATHER FORECASTING</header>
+    <div class="container">
+      <div class="location"></div>
+      <div class="currently">
+        <div class="currently-time">Weather Details</div>
+        <div class="currently-summary">
+          <span>Summary: </span> <span id="currently-summary">Clear</span>
+        </div>
+        <div class="currently-details"></div>
+      </div>
+      <div class="daily-hourly-details">
+        <div class="switching">
+          <div class="daily active" id="daily">Daily</div>
+          <div class="hourly" id="hourly">Hourly</div>
+        </div>
+        <div class="daily-details">
+          <div class="summary" id="daily-summary"></div>
+          <div id="daily-data"></div>
+        </div>
+        <div class="hourly-details hidden">
+          <div class="summary" id="hourly-summary"></div>
+          <div id="hourly-data"></div>
+        </div>
+      </div>
+    </div>
+    <footer>Created by : Aditi Gupta</footer>
+  </body>
+</html>
